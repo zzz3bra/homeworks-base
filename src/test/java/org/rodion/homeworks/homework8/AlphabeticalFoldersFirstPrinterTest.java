@@ -11,7 +11,7 @@ class AlphabeticalFoldersFirstPrinterTest {
 
         String result = printer.print();
 
-        Assertions.assertEquals("/", result);
+        Assertions.assertEquals("\n/", result);
     }
 
     @Test
